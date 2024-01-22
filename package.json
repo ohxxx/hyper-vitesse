@@ -1,0 +1,22 @@
+{
+  "name": "hyper-vitesse",
+  "version": "1.0.3",
+  "author": "xxx",
+  "description": "A Hyper theme.",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "hyperterm",
+    "theme",
+    "ui",
+    "terminal",
+    "vibrancy",
+    "zeit",
+    "gielcobben",
+    "vernondegoede"
+  ],
+  "license": "MIT"
+}
