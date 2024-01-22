@@ -21,9 +21,9 @@ plugins: ["hyper-vitesse"],
 ```javascript
 config: {
 	theme: {
-    // [usage] 'vitesse-dark' | 'vitesse-dark-soft' | 'vitesse-light' | 'vitesse-light-soft'
-    // [default] variant vitesse-dark
-	  variant: 'vitesse-dark',
+    		// [usage] 'vitesse-dark' | 'vitesse-dark-soft' | 'vitesse-light' | 'vitesse-light-soft'
+    		// [default] variant vitesse-dark
+		variant: 'vitesse-dark',
 
 		// [optionally] override Vitesse palette per variant
 		'vitesse-dark': {},
