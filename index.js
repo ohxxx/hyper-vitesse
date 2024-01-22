@@ -78,7 +78,6 @@ exports.decorateConfig = (config) => {
   ) {
     Object.assign(palette, config.theme[variant]);
   }
-  const colors = { ...palette };
 
   return Object.assign({}, config, {
     fontFamily: '"SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace',
@@ -89,7 +88,7 @@ exports.decorateConfig = (config) => {
     selectionColor: palette.selectionColor,
     borderColor: palette.backgroundColor,
     minimal: false,
-    colors,
+    colors: palette,
     css: `
       .hyper_main {
         border: none !important;
